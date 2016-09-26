@@ -1,6 +1,12 @@
 # d3-experiments
 Experiments with Javascript and [d3](https://d3js.org/)
 
+## Examples
+
+http://bl.ocks.org/
+
+http://bl.ocks.org/mbostock
+
 ## How to run the examples
 
 The simplest examples can just be opened as local files in a browser on your local machine.
@@ -14,3 +20,7 @@ python -m http.server 8888 &
 ```
 
 Then in your local machine's browser, navigate to `localhost:8888` and click on the HTML file from there.
+
+Use JSFiddle to run experiments:
+https://jsfiddle.net/agconti/wBfLd/
+
