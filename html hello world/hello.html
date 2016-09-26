@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>GAHHH</title>
+    </head>
+    <body>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <div id="header">
+            <h1>Web Developers, Inc.</h1>
+    
+            <ul>
+                <li>Home</li>
+                <li>Products</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contact</li>
+                <ul>
+                    <li>Advrtising</li>
+                    <li>Marketing</li>
+                    <li>Sales</li>
+                    <li>The CEO</li>
+                </ul>
+            </ul>
+        </div>
+        <script>
+            d3.select("body").append("span")
+                .text("Hello, world!");
+            /* Here's Michael's first JavaScript code
+               it's pretty bad
+            var a;
+            a = "WHAZZAP???";
+            a = 3; // CHANGE A TO AN INT
+            alert('Hello, World!');
+            alert(a);
+            var result;
+            result = prompt('WHAT IS YOUR AGE?', 100);
+            */
+        </script>
+        <p>
+        <svg width="500" height="500">
+            <circle cs="25" cy="250" r="202"
+                fill="orange" stroke="black" stroke-width="50" />
+        </svg>
+        </p>
+        <div id="content">
+            <h2>Related Brands</h2>
+    
+            <ul>
+                <li><a href="#">Altostrat Corp</a></li>
+                <li>SisterCompany Inc.</li>
+                <li>Organic City</li>
+    
+            </ul>
+    
+            <h2>Sign up</h2>
+    
+            <p>Welcome to our sample web page.  We'll be dissecting this page piece by piece to show</p>
+    
+            <form>
+                <h3>Create a Profile</h3>
+                <label for="firstname-input">First Name</label><input type="text" name="firstname" id="firstname-input">
+                <label for="lastname-input">Last Name</label><input type="text" name="lastname" id="lastname-input">
+                <label for="dob-input">Date of Birth</label><input type="text" name="dob" id="dob-input">
+                <p>Gender</p>
+                <input type="radio" name="gender" id="gender-male-input"><label for="gender-male-input">male</label>
+                <input type="radio" name="gender" id="gender-female-input"><label for="gender-female-input">female</label>
+            </form>
+        </div>
+        <div id="michael">
+            <img src="Don't Read This Book.jpg" alt="A GREAT BOOK!"/>
+        </div>
+    </body>
+</html>
