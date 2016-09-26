@@ -1,5 +1,5 @@
 # d3-experiments
-Experiments with Javascript and d3
+Experiments with Javascript and [d3](https://d3js.org/)
 
 ## How to run the examples
 
